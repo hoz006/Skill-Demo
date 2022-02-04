@@ -4,7 +4,7 @@ import org.junit.*;
 public class Tester {
     @Test
     public void test(){
-        Square test1 = new Square(1);
+        Square test1 = new Square(2);
         assertEquals(4, test1.result());
     }
 }
